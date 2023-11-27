@@ -34,12 +34,8 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Attack Maps Before Hardening / Security Controls
 <img width="1175" alt="linux-ssh-auth-fail (before)" src="https://github.com/kevintrevalexander/Azure-Honeynet-Cloud-SOC/assets/150730972/2d28c8c1-c83a-4977-8835-67a51b6633f2">
 <img width="981" alt="mssql-auth-fail (before)" src="https://github.com/kevintrevalexander/Azure-Honeynet-Cloud-SOC/assets/150730972/73731fc5-7529-44dd-8dec-27f4b60f0ffa">
-
-
-
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+<img width="1198" alt="nsg-malicious-allowed-in (before)" src="https://github.com/kevintrevalexander/Azure-Honeynet-Cloud-SOC/assets/150730972/c2504b0a-fbad-4005-b612-357e4ed312d2">
+<img width="960" alt="windows-rdp-auth-fail (before)" src="https://github.com/kevintrevalexander/Azure-Honeynet-Cloud-SOC/assets/150730972/27bc5fb1-877d-4b74-afde-1dd86ea2c934">
 
 ## Metrics Before Hardening / Security Controls
 
