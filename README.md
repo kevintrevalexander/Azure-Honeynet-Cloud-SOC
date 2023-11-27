@@ -40,16 +40,18 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+Start Time 2023-11-09 20:57:43
+Stop Time 2023-11-10 20:57:43
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityEvent            | 15787
+| Syslog                   | 17590
+| SecurityAlert            | 280
+| SecurityIncident         | 279
+| AzureNetworkAnalytics_CL | 2419
+
+![Metrics Before Hardening KTA-Infographic-04](https://github.com/kevintrevalexander/Azure-Honeynet-Cloud-SOC/assets/150730972/8aee3e72-c447-4b33-b8c3-8bd6dcc3d03a)
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -58,16 +60,18 @@ Stop Time 2023-03-16 17:04:29
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 2023-11-10 21:59:35
+Stop Time 2023-11-11 21:59:35
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
+| SecurityEvent            | 3016
+| Syslog                   | 0
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
+
+![Metrics After Hardening KTA-Infographic-05 jpg](https://github.com/kevintrevalexander/Azure-Honeynet-Cloud-SOC/assets/150730972/301bcc94-da78-4a35-a966-3fb2e811b9d5)
 
 ## Conclusion
 
