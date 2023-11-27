@@ -1,8 +1,6 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
 ![Azure Honeynet Cloud SOC KTA-Infographic-01](https://github.com/kevintrevalexander/Azure-Honeynet-Cloud-SOC/assets/150730972/7617cdf4-7eda-4b76-828c-c72664da8501)
 
-![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
-
 ## Introduction
 
 In this project, I build a mini honeynet in Azure and ingest log sources from various resources into a Log Analytics workspace, which is then used by Microsoft Sentinel to build attack maps, trigger alerts, and create incidents. I measured some security metrics in the insecure environment for 24 hours, apply some security controls to harden the environment, measure metrics for another 24 hours, then show the results below. The metrics we will show are:
@@ -14,10 +12,10 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![Architecture Before Hardening KTA-Infographic-02](https://github.com/kevintrevalexander/Azure-Honeynet-Cloud-SOC/assets/150730972/e2b4b0e0-7225-40e9-b510-cab21d3c6fa8)
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![Architecture After Hardening KTA-Infographic-03](https://github.com/kevintrevalexander/Azure-Honeynet-Cloud-SOC/assets/150730972/41b70d45-156f-4938-a640-bdd00f4a994e)
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
